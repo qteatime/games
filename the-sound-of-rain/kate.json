@@ -1,0 +1,68 @@
+{
+  "id": "oss.qteati.me/the-sound-of-rain",
+  "root": "web",
+  "metadata": {
+    "game": {
+      "author": "Q.",
+      "title": "the sound of rain.",
+      "description": "A short exploration on the meaning of death.",
+      "genre": ["interactive-fiction"],
+      "tags": ["experimental", "gothic", "hand-drawn", "short", "text-based", "visual-novel", "watercolor"],
+      "thumbnail_path": "../thumbnail.png"
+    },
+    "release": {
+      "kind": "beta",
+      "date": {
+        "year": 2023,
+        "month": 4,
+        "day": 7
+      },
+      "version": {
+        "major": 0,
+        "minor": 10
+      },
+      "legal_notices_path": null,
+      "licence_name": "MIT",
+      "allow_derivative": true,
+      "allow_commercial": true
+    },
+    "rating": {
+      "rating": "teen-and-up",
+      "warnings": "This game discusses loss, abuse, anxiety and trauma. Please take care when playing."
+    },
+    "play_style": {
+      "input_methods": ["kate-buttons"],
+      "languages": [
+        {
+          "iso_code": "en",
+          "interface": true,
+          "audio": false,
+          "text": true
+        }
+      ],
+      "accessibility": [
+        "high-contrast",
+        "voiced-text"
+      ],
+      "average_duration": "half-hour"
+    }
+  },
+  "files": [
+    "**/*.zip",
+    "**/*.html",
+    "**/*.js",
+    "**/*.wasm",
+    "**/*.data",
+    "**/*.png"
+  ],
+  "platform": {
+    "type": "web-archive",
+    "html": "index.html",
+    "bridges": [
+      { "type": "network-proxy" },
+      { "type": "input-proxy", "mapping": "kate" },
+      { "type": "preserve-webgl-render" },
+      { "type": "capture-canvas", "selector": "#canvas" }
+    ]
+  }
+}

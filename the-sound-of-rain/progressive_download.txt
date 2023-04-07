@@ -1,0 +1,12 @@
+# RenPyWeb progressive download rules - first match applies
+# '+' = progressive download, '-' = keep in game.zip (default)
+# See https://www.renpy.org/doc/html/build.html#classifying-and-ignoring-files for matching
+#
+# For packaging as a Kate cartridge, there's little point to keeping
+# things outside of the zip, since we do not have to worry about
+# network latency.
+#
+# +/- type path
+- image game/gui/**
+- image game/**
+- music game/audio/**

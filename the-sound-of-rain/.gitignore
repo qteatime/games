@@ -1,0 +1,8 @@
+*.rpyc
+*.rpyb
+*.rpymc
+saves
+cache
+log.txt
+web/
+*.kart
