@@ -20,4 +20,4 @@ If all incantations pass without trouble, you should have a Kate cartridge that 
 
 ## Licence
 
-Made by Q., code is released under MIT, images under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
+Made by Q., code is released under MIT, images the `game/images` folder under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/), and images under the `game/kate-ui` folder under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). Other images are part of the Ren'Py distribution and not distributed under a CC licence..
